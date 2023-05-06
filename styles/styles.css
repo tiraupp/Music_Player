@@ -107,3 +107,10 @@ button {
 .button_biggest {
     font-size: 4em;
 }
+
+@media screen and (max-width: 480px) {
+    #cover {
+        width: 330px;
+        height: 330px;
+    }
+}
