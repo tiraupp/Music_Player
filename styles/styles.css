@@ -109,8 +109,23 @@ button {
 }
 
 @media screen and (max-width: 480px) {
+    body {
+        height: 100vh;
+        width: 100vh;
+    }
     #cover {
         width: 330px;
         height: 330px;
+    }
+    .button {
+        font-size: 1em;
+    }
+
+    .button_navigate {
+        font-size: 2em;
+    }
+
+    .button_biggest {
+        font-size: 3em;
     }
 }
