@@ -110,12 +110,33 @@ button {
 
 @media screen and (max-width: 480px) {
     body {
-        height: 100%;
-        width: 100%;
+        height: 100vh;
     }
     #cover {
-        width: 330px;
-        height: 330px;
+        width: 350px;
+        height: 350px;
+    }
+    #below_cover {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 3em 0 1em 0;
+        width: 350px;
+    }
+    #progress_container {
+        width: 350px;
+        height: 10px;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        margin-bottom: 1em;
+    }
+    
+    #button_container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 350px;
     }
     .button {
         font-size: 1.5em;
